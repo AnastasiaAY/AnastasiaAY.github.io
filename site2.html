@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> A BORN IS STAR </title>
+        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+        <link rel="stylesheet" href=".css">
+        <style>
+            .header {
+                padding: 10px 0;
+                position: fixed;
+                background: rgba(148, 148, 148, 0.8);
+                z-index: 997;
+                left: 0;
+                top: 0;
+                right: 0;
+            }
+            .element-menu {
+                list-style: none;
+                display: inline;
+                justify-content: flex-start;
+                margin: 20px;
+            }
+
+            .element-menu-link {
+                text-decoration: none;
+                display: inline-block;
+                color: rgb(0, 0, 0);
+                font-weight: 400;
+                font-size: 15px;
+                text-transform: uppercase;
+                outline: none;
+            }
+            
+            .container {
+                max-width: 1200px;
+                padding: o 25px;
+                margin: 35px auto;
+            }
+
+            .img-banner {
+                text-align: center;
+                padding: 0;
+                border-radius: 10%;
+            }
+            #footer {
+                background: rgba(148, 148, 148, 0.8);
+                padding: 25px;
+                color: rgb(0, 0, 0);
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+            body {
+                background-image: url(1.jpg);
+            }
+            .main {
+                display: flex;
+                flex-direction: column;
+            }
+  * {
+                padding: 0 10px;
+                margin: 0;
+            }
+            .container_main {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+            .left {
+                order: 0;
+                flex: 2;
+            }
+            .right {
+                order: 2;
+                flex: 2;
+            }
+            .center {
+                order: 1;
+            }
+            .middle {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+           
+            
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="menu">
+                    <div class="logo-menu"></div>
+                    <a href="#" class="logo-menu-link"> </a>
+                </div>
+                <div class="elements-menu">
+                    <ul class="spisok-menu">
+                        <li class="element-menu"> <a href="#" class="element-menu-link"> Home </a> </li>
+                        <li class="element-menu"> <a href="#" class="element-menu-link"> About </a>
+                                <li class="element-menu"> <a href="#" class="element-menu-link"> Contact </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="section section_banner">
+                <div class="container">
+                    <div class="banner_container">
+                        <img class="img-banner" src="2.jpg">
+                    </div>
+                </div>
+            </section>
+            <section class="section section_main">
+                <div class="container_main">
+                    <div class="left">
+                        <a href="page2.html">
+                        <img width="80%" src="LG.jpg">
+                        </a>
+                    </div>
+                    <div class="center">
+                        <div class="middle">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/tF1thXTMB6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/bo_efYhYU2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                    <div class="right">
+                        <a href="page1.html">
+                        <img width="100%"  src="BC3.jpg">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer">&copy; Copyright 2019 </div>
+        </footer>
+    </body>
+</html>
